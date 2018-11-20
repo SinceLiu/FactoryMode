@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/mic_bt_start"
+            style="@style/normal_bg_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/HeadSet_tips"
+            android:textSize="@dimen/item_text_title_size" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="6" >
+
+        <com.mediatek.factorymode.VUMeter
+            android:id="@+id/uvMeter"
+            android:layout_width="150px"
+            android:layout_height="60px"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_ok"
+            style="@style/success_bg_style"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/Success" />
+
+        <Button
+            android:id="@+id/bt_failed"
+            style="@style/fail_bg_style"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/Failed" />
+    </LinearLayout>
+
+</LinearLayout>

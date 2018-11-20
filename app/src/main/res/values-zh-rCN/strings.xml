@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hello">欢迎来到工厂模式</string>
+    <string name="app_name">工厂模式</string>
+    <string name="Settings">设置</string>
+    <string name="AutoTest">夹具测试</string>
+    <string name="AllTest">自动测试</string>
+    <string name="Packageerror">出错了,无法找到应用包！</string>
+    <string name="PackageIerror">内部错误</string>
+    <!--BatteryLog part -->
+    <string name="BatteryLog">电源</string>
+
+    <string name="battery_info_status_label">充电状态:</string>
+    <string name="battery_info_scale_label">最大电量:</string>
+    <string name="battery_info_level_label">当前电量:</string>
+    <string name="battery_info_health_label">电源状况:</string>
+    <string name="battery_info_technology_label">电源技术:</string>
+    <string name="battery_info_voltage_label">当前电压:</string>
+    <string name="battery_info_voltage_units">mV</string>
+    <string name="battery_info_temperature_label">电源温度:</string>
+    <string name="battery_info_charging_label">电源电流:</string>
+    <string name="battery_info_temperature_units">\u00B0 C</string>
+    <string name="battery_info_cpu_temperature_label">CPU温度:</string>
+    <string name="battery_info_uptime">自启动的时间:</string>
+    <string name="battery_info_awake_battery">对电池唤醒时间:</string>
+    <string name="battery_info_awake_plugged">充电时间:</string>
+    <string name="battery_info_screen_on">屏幕打开时间:</string>
+    <string name="battery_info_status_unknown">未知</string>
+    <string name="battery_info_status_charging">充电</string>
+    <string name="battery_info_status_charging_ac">(AC)</string>
+    <string name="battery_info_status_charging_usb">(USB)</string>
+    <string name="battery_info_status_discharging">放电中</string>
+    <string name="battery_info_status_not_charging">未充电</string>
+    <string name="battery_info_status_full">满</string>
+    <string name="battery_info_health_unknown">未知</string>
+    <string name="battery_info_health_good">很好</string>
+    <string name="battery_info_health_overheat">过热</string>
+    <string name="battery_info_health_dead">没电</string>
+    <string name="battery_info_health_over_voltage">电压过高</string>
+    <string name="battery_info_health_unspecified_failure">未知错误</string>
+    <!--TouchScreen part -->
+    <string name="TouchScreen">触屏</string>
+    <string name="PointTest">点测试</string>
+    <string name="LineTest">线测试</string>
+    <string name="Result">查看结果 </string>
+    <string name="Offset">偏移量： </string>
+    <string name="TouchComplete">测试完成</string>
+    <string name="Error">错误</string>
+    <string name="DrawError">绘制出错！</string>
+    <string name="Again">重试</string>
+    <string name="GoOn">继续</string>
+     <!--TouchScreen part-->
+   
+    <string name="TouchScreen_HandWriting">触摸屏手写</string>
+    <string name="TouchScreen_Verification">触摸屏验证</string>
+    <string name="TouchScreen_VerificationPoint">触摸屏校验点</string>
+    <string name="TouchScreen_VerificationLine">触摸屏校验线</string>
+    <string name="TouchScreen_VerificationShaking">触摸屏校验震动</string>
+    <string name="TouchScreen_MultiTouch">触摸屏多点触控</string>
+    <string name="TouchScreen_Settings_TextValue">值</string>
+    <string name="TouchScreen_Settings_TextSpinner">类别</string>
+    <string name="TouchScreen_Settings_TextSet">设置</string>
+    <string name="TouchScreen_Settings">设置</string>
+    <string name="TouchScreen_Settings_Value">0</string>
+    <string name="TouchScreen_Settings_sdcard">关闭</string>
+    <string name="TouchScreen_Settings_uart">关闭</string>
+    <string name="TouchScreen_Settings_TextUart">开启Uart日志</string>
+    <string name="TouchScreen_Settings_TextSDcard">开启SD卡日志</string>
+    <string name="TouchScreen_RateReport">报告</string>
+    
+    <!--Display part -->
+    <string name="BackLight">背景灯</string>
+    <string name="Display_lcd_Text">背景灯</string>
+    <!--Memory NAND part -->
+    <string name="Memory">内存</string>
+    <!--Audio part -->
+    <string name="Audio">声音</string>
+    <!--Camera part -->
+    <string name="Camera">相机</string>
+    <string name="Camera_takepic">拍照</string>
+    <string name="Camera_retake">重拍</string>
+    <string name="Camera_notfound">未检测到前置摄像头</string>
+    <!--WiFi part -->
+    <string name="WiFi">WiFi</string>
+    <string name="WiFi_success">测试成功</string>
+    <string name="WiFi_failed">测试失败</string>
+    <string name="WiFi_scaning">正在查找中...</string>
+    <string name="WiFi_info_closeing">wifi正在关闭中...</string>
+    <string name="WiFi_info_close">wifi已经关闭</string>
+    <string name="WiFi_info_opening">wifi正在打开</string>
+    <string name="WiFi_info_open">wifi已经打开</string>
+    <string name="WiFi_info_unknown">未知状态</string>
+    <string name="WiFi_connecting">正在连接...</string>
+    <string name="WiFi_notfound_openap">未找到开放的连接点</string>
+    <string name="WiFi_mac_address">WLAN MAC地址</string>
+    <string name="WiFi_item_name">名称</string>
+    <string name="WiFi_item_mac">地址</string>
+    <string name="WiFi_item_level">信号强度</string>
+    <string name="wait">请稍候...</string>
+    <string name="discovery">搜索</string>
+    <string name="Wifi_open">打开wifi</string>
+    <!-- HeadSet -->
+    <string name="HeadSet">耳机</string>
+    <string name="HeadSet_plugged">耳机插入</string>
+    <string name="HeadSet_unplugged">耳机拔出</string>
+    <string name="HeadSet_tips">请插入耳机进行测试</string>
+    <string name="HeadSet_remove">请移除耳机</string>
+    <string name="HeadSet_hook">按下耳机Hook键!</string>
+    <string name="HeadSet_hook_message">请确认拨打电话时长按耳机Hook键是否可以挂断?</string>
+    <!-- GPS -->
+    <string name="GPS">GPS</string>
+    <string name="GPS1">GPS1</string>
+    <string name="GPS2">GPS2</string>
+    <string name="GPS_open">请打开GPS</string>
+    <string name="GPS_connect">已开启：正在连接...</string>
+    <string name="GPS_normal">GPS 正常</string>
+    <string name="GPS_satelliteNum">已搜索到卫星数：</string>
+    <string name="GPS_Signal">GPS 信号 : </string>
+    <string name="GPS_Success">成功</string>
+    <string name="GPS_Fail">失败</string>
+    <string name="GPS_time">耗时： %s 分</string>
+    <!-- GSensor -->
+    <string name="Sensor">传感器</string>
+    <!-- Vibrator -->
+    <string name="Vibrator">震动</string>
+    <!-- Rgb_led -->
+    <string name="Rgb_led">RGB灯</string>
+    <!-- Signal -->
+    <string name="Signal">电话</string>
+    <!--YGPS part -->
+    <string name="YGPS">YGPS</string>
+    <!--AGPS part -->
+    <string name="AGPS">AGPS</string>
+    <!-- Microphone -->
+    <string name="Microphone">麦克风</string>
+    <string name="double_microphone">"双麦克风"</string>
+    <string name="microphone1">"麦克风1选项"</string>
+    <string name="microphone2">"麦克风2选项"</string>
+    <string name="Mic_start">开始录音</string>
+    <string name="Mic_stop">停止录音并播放</string>
+    <string name="Mic_play">开始播放</string>
+    <string name="Mic_playing">播放中...</string>
+    <string name="Mic_operation">麦克风选项</string>
+    <string name="Speaker_operation">喇叭选项</string>
+    <!--BlutTooth part -->
+    <string name="Bluetooth">蓝牙</string>
+    <string name="Bluetooth_open">蓝牙已经打开</string>
+    <string name="Bluetooth_opening">蓝牙正在打开...</string>
+    <string name="Bluetooth_scaning">正在查找...</string>
+    <string name="Bluetooth_closed">蓝牙已经关闭</string>
+    <string name="Bluetooth_mac">MAC地址:</string>
+    <string name="Bluetooth_mac_device">本机MAC地址</string>
+    <string name="Bluetooth_scan_success">查找完成</string>
+    <string name="status_unavailable">不可用</string>
+    <string name="Bluetooth_discovery">搜索</string>
+    <!--GSensor part -->
+    <string name="GSensor">重力传感器测试2</string>
+    <string name="GSensorWithCalibrate">重力传感器测试1</string>
+    <string name="GSensor_info">竖立,平放,侧立,观察重力变化!</string>
+    <string name="GSensor_with_calibrate_info">平放观察重力变化!</string>
+    <string name="GSensor_with_calibrate">校准</string>
+    <string name="GSensor_with_calibrate_do_calibrate">校准中</string>
+    <string name="GSensor_with_calibrate_result">测试中</string>
+    <string name="GSensor_with_calibrate_retest">重新测试</string>
+
+    <!--GYSensor part -->
+    <string name="GYSensor">陀螺仪</string>
+    <string name="GYSensor_info">旋转设备观察数值变化!</string>
+    <!--MSensor part -->
+    <string name="MSensor">磁力传感器</string>
+    <string name="MSensor_default_text">未知数据</string>
+    <string name="MSensor_North">正北</string>
+    <string name="MSensor_East">正东</string>
+    <string name="MSensor_South">正南</string>
+    <string name="MSensor_West">正西</string>
+    <string name="MSensor_north_east">北偏东</string>
+    <string name="MSensor_south_east">南偏东</string>
+    <string name="MSensor_south_west">南偏西</string>
+    <string name="MSensor_north_west">北偏西</string>
+    <!-- LSensor part -->
+    <string name="LSensor">光传感器</string>
+    <string name="LSensor_default_text">未知数据</string>
+    <string name="LSensor_accuracy">精度:</string>
+    <string name="LSensor_value">数值:</string>
+    <string name="LSensor_tips">在强光和黑暗地方观察数值变化!</string>
+
+    <string name="LCD_increase">强背光</string>
+    <string name="LCD_weaken">弱背光</string>
+    <string name="BackLight_remind">强、弱背光灯交替变亮</string>
+    <string name="Success">成功</string>
+    <string name="Failed">失败</string>
+
+    <!-- psensor part -->
+    <string name="psensor_hello">PSensor 验证</string>
+    <string name="psensor_app_name">距离传感器</string>
+    <string name="proximity">接近 : </string>
+    <string name="tips">请将手放置和离开感应区观看数值变化!</string>
+    <string name="calibrate">校准</string>
+
+    <!-- Earphone -->
+    <string name="Earphone">听筒</string>
+
+    <!-- Activity name part -->
+    <string name="battery_name">电 源</string>
+    <string name="touchscreen_name">触 屏</string>
+    <string name="speaker_name">喇叭按键</string>
+    <string name="otg_speaker_name">OTG 喇 叭</string>
+    <string name="wifi_name">WiFi</string>
+    <string name="bluetooth_name">蓝 牙</string>
+    <string name="headset_name">耳 机</string>
+    <string name="earphone_name">听 筒</string>
+    <string name="gps_name">GPS</string>
+    <string name="gps1_name">GPS1</string>
+    <string name="gps2_name">GPS2</string>
+    <string name="vibrator_name">震 动</string>
+    <string name="rgb_led_name">RGB灯</string>
+    <string name="hall_name">霍 尔</string>
+    <string name="hall_on">已 打 开</string>
+    <string name="hall_off">已 关 闭</string>
+    <string name="telephone_name">电 话</string>
+    <string name="backlight_name">背景灯</string>
+    <string name="memory_name">内 存</string>
+    <string name="gsensor_name">重力测试2</string>
+    <string name="gsensor_with_calibrate_name">重力测试</string>
+    <string name="msensor_name">磁力传感</string>
+    <string name="lsensor_name">光传感</string>
+    <string name="psensor_name">距离传感</string>
+    <string name="gysensor_name">"陀螺仪"</string>
+    <string name="camera_name">后摄像头</string>
+    <string name="sdcard_name">TF卡</string>
+    <string name="fmradio_name">收音机</string>
+    <string name="keyCode_name">按 键</string>
+    <string name="lcd_name">显示屏</string>
+    <string name="sim_name">SIM卡</string>
+    <string name="microphone_name">麦克风</string>
+    <string name="double_microphone_name">双麦克风</string>
+    <string name="subcamera_name">前摄像头</string>
+    <string name="headsethook_name">耳机Hook</string>
+    <string name="indicatorlight_name">指示灯</string>
+    <string name="indicator_light_red">指示灯一</string>
+    <string name="indicator_light_blue">指示灯二</string>
+    <string name="indicator_light_remind">指示灯交替闪烁</string>
+    <!-- SDcard part -->
+    <string name="sdcard">TF卡</string>
+    <string name="storage_sdcard">SD 卡</string>
+    <string name="storage_sdcard2">SD 卡 2</string>
+    <string name="storage_phone">手机存储</string>
+    <string name="ex_usb_sdcard">"外部USB存储"</string>
+    <string name="sdcard_tips_success">本地存储设备: </string>
+    <string name="sdcard_tips_success_ex">外部存储设备: </string>
+    <string name="sdcard_tips_failed">没有测到存储设备</string>
+    <string name="sdcard_totalsize">总容量:</string>
+    <string name="sdcard_freesize">剩余容量:</string>
+
+    <!-- FMRadio part -->
+    <string name="FMRadio">收音机</string>
+    <string name="FMRadio_notice">选择</string>
+    <string name="fmradio_remind">请插入耳机!</string>
+    <string name="cust_fm">上海 93.4</string>
+    <string name="cust_fm_two">工厂 108</string>
+
+    <!-- KeyCode -->
+    <string name="KeyCode">按键</string>
+    <string name="KeyCode_info">请开始按键</string>
+    <string name="KeyCode_info2">请按键调节音量</string>
+
+    <!-- LCD part -->
+    <string name="LCD">显示屏</string>
+
+    <!-- SimCard part -->
+    <string name="SimCard">SIM卡</string>
+    <string name="sim1_info_ok">SIM1:正常</string>
+    <string name="sim1_info_failed">SIM1:未发现</string>
+    <string name="sim2_info_ok">SIM2:正常</string>
+    <string name="sim2_info_failed">SIM2:未发现</string>
+    <string name="sim_info_ok">SIM:正常</string>
+    <string name="sim_info_strength">SIM 信号:</string>
+    <string name="sim_strength_great">很好</string>
+    <string name="sim_strength_good">好</string>
+    <string name="sim_strength_moderate">一般</string>
+    <string name="sim_strength_poor">差</string>
+    <string name="sim_strength_none_or_unknown">无信号</string>
+    <string name="sim_info_failed">SIM:未发现</string>
+    <string name="sim_signal_strength" >"<xliff:g id="DBM">%1$d</xliff:g> dBm <xliff:g id="ASU">%2$d</xliff:g> asu"</string>
+    <string name="emergency_call">紧急电话</string>
+    <string name="service_call">客服电话</string>
+    <string name="normal_call">普通电话</string>
+    <!-- Otg -->
+    <string name="otg_name">OTG</string>
+    <string name="OTG">OTG</string>
+    <string name="otg_status_label">OTG状态：</string>
+    <string name="otg_status_ok">OTG成功</string>
+    <string name="otg_status_failed">OTG未检测到</string>
+
+    <!-- USB_Otg -->
+    <string name="usb_otg_name">USB Otg</string>
+    <string name="usb_OTG">USB OTG</string>
+
+    <!-- Hdmi -->
+    <string name="hdmi_name">HDMI</string>
+    <string name="hdmi_status_ok">HDMI 成功</string>
+    <string name="hdmi_status_failed">HDMI 未检测到</string>
+
+    <!-- BACKTOUCH -->
+    <string name="backtouch_name">背部触控</string>
+    <string name="BACKTOUCH">背部触控</string>
+    <string name="back_touch_status_label">背部触控 status:</string>
+    <string name="back_touch_status_ok">背部触控 success</string>
+    <string name="back_touch_status_failed">背部触控 未检测到</string>
+        
+    <!-- Report part -->
+    <string name="Report">测试报告</string>
+    <string name="report_ok">测试成功项:</string>
+    <string name="report_failed">测试失败项:</string>
+    <string name="report_notest">未测试项:</string>
+
+    <!-- Menu part -->
+    <string name="menu_exit">退出测试</string>
+
+    <!-- AlertDialog part -->
+    <string name="alert_title">退出</string>
+    <string name="alert_content">是否退出工厂模式？</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    
+    <!-- Proximity Sensor Calibration -->
+    <string name="proximity_title">"近距离传感器校准"</string>
+    <string name="proximity_dlg_message">"将手放在合适的距离进行校准，校准成功后可拨号验证！"</string>
+    <string name="proximity_dlg_title">"校准提示"</string>
+    <string name="proximity_success">校准成功.</string>
+    <string name="proximity_fail">校准失败.</string>
+    <string name="proximity_dlg_yes">"是"</string>
+    <string name="proximity_dlg_no">"否"</string>
+
+    <string name="flip_setting_screen_off_title">翻转熄屏</string>
+    <string name="flip_setting_ring_mute_title">翻转来电静音</string>
+    <string name="accessibility_volumeup_button_category">"“上侧键”"</string>
+    <string name="accessibility_volumeup_button_accept_call">"按“上侧键”接听电话"</string>
+    <string name="earphone_vibrator_name">听筒震动</string>
+    <string name="Audio_operation">听筒选项</string>
+    <string name="Vibrator_operation">震动选项</string>
+    <string name="EarphoneVibrator">听筒/震动</string>
+    <string name="sim_sdcard_name">SIM/TF卡</string>
+    <string name="simcard_name">SIM卡</string>
+    <string name="SIM_operation">SIM卡选项</string>
+    <string name="SDCard_operation">SD卡选项</string>
+
+    <string name="flash_lamp">闪光灯</string>
+    <string name="flash_lamp_battery_low">电量低于15%，无法打开闪光灯</string>
+    <string name="flash_lamp_exp">相机异常，无法打开闪光灯</string>
+    <string name="isFlash">刚进入时是否闪光？</string>
+    <string name="hall_info_status_label">当磁铁靠近霍尔时有已打开字样出现，说明霍尔功能正常OK!</string>
+
+    <string name="factory_data_reset">重置手机</string>
+    <string name="reset_dialog">确定重置手机？</string>
+    <string name="reset_dialog_label">此操作会清除你手机内存设备中的所有数据!</string>
+    <string name="reset_erase_sdcard">清除手机存储中的全部数据，例如音乐和图片</string>
+    <string name="reset_erase_sdcard_label">格式化手机存储</string>
+    <string name="reset_dialog_comfirm">确定</string>
+    <string name="reset_dialog_cancel">取消</string>
+    <string name="nfc">NFC</string>
+    <string name="nfc_info_status_label">拿紫色公交卡靠近NFC天线，出现刷卡记录，说明NFC功能正常OK!</string>
+
+    <string name="device_info">本机信息</string>
+    <string name="device_system_info">主板信息：</string>
+    <string name="device_version_info">软件版本：</string>
+    <string name="device_meid_info">MEID号码：</string>
+    <string name="device_imei_info">IMEI号码：</string>
+    <string name="device_sn_info">SN  号码：</string>
+    <string name="device_wifi_info">Wifi地址：</string>
+    <string name="device_to_engineer_mode">点击进入工程测试</string>
+    <string name="device_to_settings_mode">点击进入设置</string>
+    <string name="device_rf_info">校准参数：</string>
+    <string name="device_c2k_info">C2K校准：</string>
+    <string name="device_c2k_band">Band信息：</string>
+    <string name="device_c2k_band5_set">Band5设置</string>
+    <!-- mcube add start -->
+    <string name="gesture_settings">手势体感</string>
+    <string name="calibration_settings_title">重力校准</string>
+    <string name="calibration_settings_summary">较准重力装制</string>
+    <!-- mcube add end   -->
+
+    <!--730 line test add start by cenxingcan 20140910-->
+    <string name="line_test">划线工具</string>
+    <!--730 line test add start by cenxingcan 20140910-->
+
+    <!--730 flashlight add start by cenxingcan 20140910-->
+    <string name="openflashlight">打开</string>
+    <string name="closeflashlight">关闭</string>
+    <!--730 flashlight add start by cenxingcan 20140910-->
+    <string name="kpd_light_name">按键灯</string>
+    
+    <!-- a780 scanner add start 20141124-->
+    <string name="scan_test_apk">扫描头测试</string>
+    <!-- a780 scanner add end 20141124 -->
+
+    <string name="gpio_success">GPIO 全部通过!</string>
+    <string name="gpio_fail">GPIO 失败项:\n</string>
+    <string name="gpio_open_fail">GPIO打开失败</string>
+    <string name="gpio_get_fail">GPIO获取失败</string>
+
+    <string name="torch_name">手电筒</string>
+    <string name="color_light">"双色灯"</string>
+    <string name="fingerprint_recognition">"指纹"</string>
+    <string name="open">"打开"</string>
+    <string name="close">"关闭"</string>
+    <string name="pressure_sensor">"气压传感器"</string>
+    <string name="fm_transmitter">"FM发射"</string>
+    <string name="extern_bluetooth">"外部蓝牙"</string>
+    <string name="otg_flashcard">"外部存储"</string>
+    <string name="current_spv">"当前气压："</string>
+    <string name="current_altitude">"当前海拔："</string>
+    <string name="no_support_pressture">"您的手机不支持气压传感器."</string>
+    <string name="searching">"搜索中\u2026"</string>
+    <string name="pa">"帕斯卡"</string>
+    <string name="test_ok">"此测试项是否测试成功? \n"</string>
+    <string name="media_unmounted">"外部存储媒体不存在, 外部存储未插入。 \n"</string>
+    <string name="media_checking">"外部存储媒体存在，并且将要被检查。 \n"</string>
+    <string name="media_mouned">"外部存储媒体存在，并且挂载成功。 \n"</string> 
+    <string name="media_removed">"外部存储媒体已经被移除。 \n"</string>
+    <string name="fm_tx_toast">"请用收音机打开FM94.9频率进行测试 \n"</string>
+    <string name="testing">"测试中\u2026"</string>
+    <string name="start_test">"开始测试"</string>
+    <string name="stop_test">"停止测试"</string>
+    <string name="defualt_mic_show_text">您现在选择测试的是麦克1</string>
+    <string name="btn_mic1">"麦克1"</string>
+    <string name="btn_mic2">"麦克2"</string>
+    <string name="choose_what">您现在选择测试的是</string>
+    <string name="version_code">软件版本</string>
+    <string name="sw_version">软件版本号: </string>
+    <string name="hw_version">硬件版本号: </string>
+    <string name="ok">确定</string>
+</resources>

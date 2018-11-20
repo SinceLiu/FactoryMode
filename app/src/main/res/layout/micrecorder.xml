@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/mic_bt_start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/Mic_start"
+            android:textSize="@dimen/item_btn_context_size" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="4" >
+
+        <com.mediatek.factorymode.VUMeter
+            android:id="@+id/uvMeter"
+            android:layout_width="@dimen/mic_test_vum_width"
+            android:layout_height="@dimen/mic_test_vum_height"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mic_tips"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Mic_operation"
+            android:textColor="@color/Green"
+            android:textSize="@dimen/item_text_title_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/mic_bt_ok"
+                style="@style/success_bg_style"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="@string/Success"
+                android:textSize="@dimen/item_btn_ok_size" />
+
+            <Button
+                android:id="@+id/mic_bt_failed"
+                style="@style/fail_bg_style"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="@string/Failed"
+                android:textSize="@dimen/item_btn_fail_size" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mic2_tips"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/Speaker_operation"
+            android:textColor="@color/Green"
+            android:textSize="@dimen/item_text_title_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/speaker_bt_ok"
+                style="@style/success_bg_style"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="@string/Success"
+                android:textSize="@dimen/item_btn_ok_size" />
+
+            <Button
+                android:id="@+id/speaker_bt_failed"
+                style="@style/fail_bg_style"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="@string/Failed"
+                android:textSize="@dimen/item_btn_fail_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

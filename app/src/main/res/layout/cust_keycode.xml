@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/keycode_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/item_text_title_margin_bottom"
+        android:layout_marginTop="@dimen/item_text_title_margin_top"
+        android:text="@string/KeyCode_info"
+        android:textColor="@color/Green"
+        android:textSize="@dimen/item_text_title_size" />
+
+    <GridView
+        android:id="@+id/keycode_grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:horizontalSpacing="4dip"
+        android:numColumns="6"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/keycode_bt_ok"
+            style="@style/success_bg_style"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/Success"
+            android:textSize="@dimen/item_btn_ok_size" />
+
+        <Button
+            android:id="@+id/keycode_bt_failed"
+            style="@style/fail_bg_style"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/Failed"
+            android:textSize="@dimen/item_btn_fail_size" />
+    </LinearLayout>
+
+</LinearLayout>

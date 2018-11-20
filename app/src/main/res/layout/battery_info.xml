@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip">
+
+    <TextView
+        android:id="@+id/tv_status"
+        style="@style/info_label"
+        android:text="@string/battery_info_status_label"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/status"
+        style="@style/info_value"
+        android:layout_toRightOf="@+id/tv_status"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_below="@+id/status"
+        style="@style/info_label"
+        android:text="@string/battery_info_level_label"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/level"
+        style="@style/info_value"
+        android:layout_below="@+id/status"
+        android:layout_toRightOf="@+id/tv_level"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_scale"
+        android:layout_below="@+id/level"
+        style="@style/info_label"
+        android:text="@string/battery_info_scale_label"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/scale"
+        android:layout_below="@+id/level"
+        style="@style/info_value"
+        android:layout_toRightOf="@id/tv_scale"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/tv_health"
+        android:layout_below="@+id/scale"
+        style="@style/info_label"
+        android:text="@string/battery_info_health_label"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/health"
+        style="@style/info_value"
+        android:layout_below="@+id/scale"
+        android:layout_toRightOf="@id/tv_health"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_charging"
+        android:layout_below="@+id/health"
+        style="@style/info_label"
+        android:text="@string/battery_info_charging_label"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/charging"
+        android:layout_below="@+id/health"
+        style="@style/info_value"
+        android:layout_toRightOf="@+id/tv_charging"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_voltage"
+        android:layout_below="@+id/charging"
+        style="@style/info_label"
+        android:text="@string/battery_info_voltage_label"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/voltage"
+        android:layout_below="@+id/charging"
+        style="@style/info_value"
+        android:layout_toRightOf="@id/tv_voltage"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_battery_temperature"
+        android:layout_below="@+id/voltage"
+        style="@style/info_label"
+        android:text="@string/battery_info_temperature_label"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/battery_temperature"
+        android:layout_below="@+id/voltage"
+        style="@style/info_value"
+        android:layout_toRightOf="@+id/tv_battery_temperature"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_cpu_temperature"
+        android:layout_below="@+id/battery_temperature"
+        style="@style/info_label"
+        android:text="@string/battery_info_cpu_temperature_label"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/cpu_temperature"
+        android:layout_below="@+id/battery_temperature"
+        style="@style/info_value"
+        android:layout_toRightOf="@id/tv_cpu_temperature"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_technology"
+        android:layout_below="@+id/cpu_temperature"
+        style="@style/info_label"
+        android:text="@string/battery_info_technology_label"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/technology"
+        style="@style/info_value"
+        android:layout_below="@+id/cpu_temperature"
+        android:layout_toRightOf="@+id/tv_technology"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_uptime"
+        android:layout_below="@+id/technology"
+        style="@style/info_label"
+        android:text="@string/battery_info_uptime"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/uptime"
+        android:layout_below="@+id/technology"
+        style="@style/info_value"
+        android:layout_toRightOf="@+id/tv_uptime"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/battery_bt_ok"
+            style="@style/success_bg_style"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/Success" />
+
+        <Button
+            android:id="@+id/battery_bt_failed"
+            style="@style/fail_bg_style"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/Failed" />
+    </LinearLayout>
+
+</RelativeLayout>

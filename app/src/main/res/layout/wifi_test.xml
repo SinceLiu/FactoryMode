@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:fadeScrollbars="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/wifi_mac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dip" />
+
+            <TextView
+                android:id="@+id/wifi_state_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dip" />
+
+            <TextView
+                android:id="@+id/wifi_result_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dip" />
+            <com.mediatek.factorymode.MyGridView
+                android:id="@+id/wifi_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:columnWidth="220dip"
+                android:horizontalSpacing="2dip"
+                android:verticalSpacing="2dip"
+                android:numColumns="auto_fit"
+                android:stretchMode="columnWidth"/>
+
+            <TextView
+                android:id="@+id/wifi_con_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dip" />
+
+            <TextView
+                android:id="@+id/wifi_resinfo_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dip" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/wifi_bt_ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            style="@style/success_bg_style"
+            android:text="@string/Success"
+            android:textSize="25dip" />
+
+        <Button
+            android:id="@+id/wifi_bt_failed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            style="@style/fail_bg_style"
+            android:text="@string/Failed"
+            android:textSize="25dip" />
+    </LinearLayout>
+
+</LinearLayout>

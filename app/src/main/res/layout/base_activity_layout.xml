@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:id="@+id/headstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+    />
+    <TextView 
+        android:id="@+id/storage_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="gone"
+    />
+    
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:text="@string/open"
+            android:id="@+id/btn_head_open"
+            android:layout_width="wrap_content"
+            android:layout_height="100dip"
+            android:layout_weight="0.5" />
+        <Button
+            android:text="@string/close"
+            android:id="@+id/btn_head_close"
+            android:layout_width="wrap_content"
+            android:layout_height="100dip"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_head_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:textSize="25dip"
+            android:text="@string/Success" />
+        <Button
+            android:id="@+id/btn_head_failed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textSize="25dip"
+            android:text="@string/Failed" />
+    </LinearLayout>
+
+</LinearLayout>

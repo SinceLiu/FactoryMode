@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <!-- Machine information -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="7"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/info_label"
+                android:text="@string/device_system_info" />
+
+            <TextView
+                android:id="@+id/status"
+                style="@style/info_value" />
+        </LinearLayout>
+        <!-- Software version -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/info_label"
+                android:text="@string/device_version_info" />
+
+            <TextView
+                android:id="@+id/version_number"
+                style="@style/info_value" />
+        </LinearLayout>
+        <!-- MEID number -->
+
+        <LinearLayout
+            android:id="@+id/meid_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/info_label"
+                android:text="@string/device_meid_info" />
+
+            <TextView
+                android:id="@+id/meid"
+                style="@style/info_value" />
+        </LinearLayout>
+        <!-- IMEI number -->
+
+        <LinearLayout
+            android:id="@+id/imei_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/info_label"
+                android:text="@string/device_imei_info" />
+
+            <TextView
+                android:id="@+id/imei"
+                style="@style/info_value" />
+        </LinearLayout>
+        <!-- SN number -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/info_label"
+                android:text="@string/device_sn_info" />
+
+            <TextView
+                android:id="@+id/sn"
+                style="@style/info_value" />
+        </LinearLayout>
+        <!-- Wifi Info -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/info_label"
+                android:text="@string/device_wifi_info" />
+
+            <TextView
+                android:id="@+id/wifi_mac"
+                style="@style/info_value" />
+        </LinearLayout>
+        <!-- RF Info -->
+
+        <LinearLayout
+            android:id="@+id/rf_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/info_label"
+                android:text="@string/device_rf_info" />
+
+            <TextView
+                android:id="@+id/rf_info"
+                style="@style/info_value" />
+        </LinearLayout>
+        <!-- C2K -->
+
+        <LinearLayout
+            android:id="@+id/c2k_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/info_label"
+                android:text="@string/device_c2k_info" />
+
+            <TextView
+                android:id="@+id/c2k_info"
+                style="@style/info_value" />
+        </LinearLayout>
+        <!-- C2K set Band5 -->
+
+        <LinearLayout
+            android:id="@+id/c2k_band_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/info_label"
+                android:text="@string/device_c2k_band" />
+
+            <TextView
+                android:id="@+id/c2k_band_info"
+                style="@style/info_value" />
+
+            <Button
+                android:id="@+id/device_c2k_band_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dip"
+                android:text="@string/device_c2k_band5_set"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/entry_other_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/to_engineer_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:padding="10dip"
+                android:text="@string/device_to_engineer_mode"
+                android:textSize="@dimen/item_text_content_size" />
+
+            <LinearLayout
+                android:id="@+id/entry_secure_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <EditText
+                    android:id="@+id/et_secure_code"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7" />
+
+                <Button
+                    android:id="@+id/btn_secure_code"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/ok" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/deviceinfo_bt_ok"
+            style="@style/success_bg_style"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/Success" />
+
+        <Button
+            android:id="@+id/deviceinfo_bt_failed"
+            style="@style/fail_bg_style"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/Failed" />
+    </LinearLayout>
+
+</LinearLayout>
